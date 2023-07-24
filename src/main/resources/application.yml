@@ -1,0 +1,19 @@
+application:
+  stopAfterErrorsCount: 3
+#  timeToSleepAfterStop: 21600000
+  timeToSleepAfterStop: 120000
+  cloudstorage:
+    address: ""
+    login: ""
+    password: ""
+  filesettings:
+    relevanttypes:
+      - "xml"
+      - "pdf"
+      - "zip"
+      - "pks"
+#server:
+#  port: 8081
+#logging:
+#  level:
+#    org.apache.http.wire: DEBUG
